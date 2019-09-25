@@ -92,13 +92,13 @@ for the JavaScript code in this tag.
 <p onclick="underlayon('hsla(60,100%,50%,0.3)')">Yellow</p>
 </div>
 
-<div id="outline-container-orgf92d7c6" class="outline-2 objectives">
-<h2 id="orgf92d7c6">Objectives</h2>
-<div class="outline-text-2" id="text-orgf92d7c6">
+<div id="outline-container-org2be3147" class="outline-2 objectives">
+<h2 id="org2be3147">Objectives</h2>
+<div class="outline-text-2" id="text-org2be3147">
 </div>
-<div id="outline-container-orgd619928" class="outline-3 learn">
-<h3 id="orgd619928">Developing the <b>Programming and Development</b> and <b>Algorithm</b> learning strands, specifically:</h3>
-<div class="outline-text-3" id="text-orgd619928">
+<div id="outline-container-org3888d71" class="outline-3 learn">
+<h3 id="org3888d71">Developing the <b>Programming and Development</b> and <b>Algorithm</b> learning strands, specifically:</h3>
+<div class="outline-text-3" id="text-org3888d71">
 <ul class="org-ul">
 <li>Understand the difference between, and appropriately use <b>if</b> statements when checking doors in your simulation.</li>
 <li>Use variables and relational operators within a <b>loop</b> to govern the end of your Monty Hall Problem game.</li>
@@ -107,13 +107,13 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org268cbff" class="outline-2 activity">
-<h2 id="org268cbff">Introduction: The Monty Hall problem</h2>
-<div class="outline-text-2" id="text-org268cbff">
+<div id="outline-container-org8e26707" class="outline-2 activity">
+<h2 id="org8e26707">Introduction: The Monty Hall problem</h2>
+<div class="outline-text-2" id="text-org8e26707">
 </div>
-<div id="outline-container-orgac6dba2" class="outline-3 document">
-<h3 id="orgac6dba2">Document It</h3>
-<div class="outline-text-3" id="text-orgac6dba2">
+<div id="outline-container-org8a8bacd" class="outline-3 document">
+<h3 id="org8a8bacd">Document It</h3>
+<div class="outline-text-3" id="text-org8a8bacd">
 <ul class="org-ul">
 <li>Watch the video.</li>
 </ul>
@@ -126,9 +126,9 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-org7a0886e" class="outline-3 learn">
-<h3 id="org7a0886e">Learn It: The Monty Hall Problem</h3>
-<div class="outline-text-3" id="text-org7a0886e">
+<div id="outline-container-org299dccd" class="outline-3 learn">
+<h3 id="org299dccd">Learn It: The Monty Hall Problem</h3>
+<div class="outline-text-3" id="text-org299dccd">
 <ul class="org-ul">
 <li>The Monty Hall Problem is probability puzzle based on an American TV game show "Let's Make a Deal" and is named after its host, Monty Hall.</li>
 <li>The problem was originally posed (and solved) in a letter by Steve Selvin to the American Statistician in 1975.</li>
@@ -136,33 +136,21 @@ for the JavaScript code in this tag.
 </ul>
 
 <pre class="example">
-Suppose you're on a game show, and you're given the choice of three doors:
-Behind one door is a car; behind the others, goats. You pick a door, say No. 1,
-and the host, who knows what's behind the doors, opens another door, say No. 3, 
-which has a goat. He then says to you, "Do you want to pick door No. 2?" 
-Is it to your advantage to switch your choice?
+Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
 </pre>
 
 <ul class="org-ul">
 <li>Do you think you should switch your choice or stick with your 1st choice?</li>
 <li>You and most people think they should stick.</li>
-<li>But as the video above video shows contestants who <b>switch have a 2/3 chance of winning the car</b>, while contestants who <b>stick to their initial choice have only a 1/3 chance.</b></li>
-<li>Paul Erdos, one of the most prolific mathematicians in history, remained unconvinced this was true until he was shown a computer simulation demonstrating the predicted result.</li>
-</ul>
-
-<div class="figure">
-<p><img src="./img/montyHallVisual.png" alt="montyHallVisual.png" />
-</p>
-</div>
-<ul class="org-ul">
-<li>The image shows the three initial configurations of the game. In two of them, the player wins by switching away from the choice made before a door was opened.</li>
+<li>But as the video above video shows contestants who switch have a 2/3 chance of winning the car, while contestants who stick to their initial choice have only a 1/3 chance.</li>
+<li>Paul Erdős, one of the most prolific mathematicians in history, remained unconvinced this was true until he was shown a computer simulation demonstrating the predicted result.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org09a3433" class="outline-3 code">
-<h3 id="org09a3433">Code It - List Popping</h3>
-<div class="outline-text-3" id="text-org09a3433">
+<div id="outline-container-org57be44e" class="outline-3 code">
+<h3 id="org57be44e">Code It - List Popping</h3>
+<div class="outline-text-3" id="text-org57be44e">
 <ul class="org-ul">
 <li>Using Python we're going to make our own Monty Hall Problem game.</li>
 <li>First of all we need to learn a new command when using lists, <b>.pop()</b>.</li>
@@ -178,21 +166,21 @@ Is it to your advantage to switch your choice?
 </div>
 </div>
 
-<div id="outline-container-org866fc6c" class="outline-3 code">
-<h3 id="org866fc6c">Code It - The Monty Hall Problem Simulation</h3>
-<div class="outline-text-3" id="text-org866fc6c">
+<div id="outline-container-org9e50ab1" class="outline-3 code">
+<h3 id="org9e50ab1">Code It - The Monty Hall Problem Simulation</h3>
+<div class="outline-text-3" id="text-org9e50ab1">
 <ul class="org-ul">
-<li>Now it's time to do our own <b>simulation</b> of the Monty Hall Problem, to prove that you should always switch your choice.</li>
-<li>Your going to complete some code so that you can simulate <b>10000 games</b> of the problem at a time.</li>
+<li>Now it's time to do our own simulation of the Monty Hall Problem, to prove that you should always switch your choice.</li>
+<li>Your going to complete some code so that you can simulate 1000 games of the problem at a time.</li>
 <li>You'll then see the probability of the two choices of switching and staying.</li>
 <li>Use the below Trinket and tasks to help you complete the badges for this week.</li>
 </ul>
 <iframe src="https://trinket.io/embed/python/1ef41578f9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 </div>
-<div id="outline-container-org2040b91" class="outline-3 silver">
-<h3 id="org2040b91">Badge It: Silver</h3>
-<div class="outline-text-3" id="text-org2040b91">
+<div id="outline-container-org0fc9fda" class="outline-3 silver">
+<h3 id="org0fc9fda">Badge It: Silver</h3>
+<div class="outline-text-3" id="text-org0fc9fda">
 <ul class="org-ul">
 <li>Using the Trinket above as a <b>starting point</b> and using the <b>comments to guide you</b>, make a simulation of the Monty Hall Problem in python.</li>
 <li>It should end up around 2/3 winning with switching and 1/3 with staying.</li>
@@ -200,9 +188,9 @@ Is it to your advantage to switch your choice?
 </ul>
 </div>
 </div>
-<div id="outline-container-org28f61fa" class="outline-3 gold">
-<h3 id="org28f61fa">Badge It: Gold</h3>
-<div class="outline-text-3" id="text-org28f61fa">
+<div id="outline-container-orgf3fe04d" class="outline-3 gold">
+<h3 id="orgf3fe04d">Badge It: Gold</h3>
+<div class="outline-text-3" id="text-orgf3fe04d">
 <ul class="org-ul">
 <li>For Gold you are going to create a version of the game where you play a round of the game like a player would in real life.</li>
 <li>Modify the Trinket code below so that your Monty Hall Problem game works correctly and fulfills the following requirements:
@@ -219,19 +207,14 @@ Is it to your advantage to switch your choice?
 </div>
 </div>
 
-<div id="outline-container-org07f43b4" class="outline-3 platinum">
-<h3 id="org07f43b4">Badge It: Platinum</h3>
-<div class="outline-text-3" id="text-org07f43b4">
+<div id="outline-container-org9ddabe4" class="outline-3 platinum">
+<h3 id="org9ddabe4">Badge It: Platinum</h3>
+<div class="outline-text-3" id="text-org9ddabe4">
 <ul class="org-ul">
 <li>Using the code you created for the Gold badge use <b>print</b> commands to show a visual version of your doors at each stage of the game.</li>
 <li>Use google to research ASCII art to see how you can use characters to make simple graphics.</li>
 <li>An example output is shown below:</li>
 </ul>
-
-<div class="figure">
-<p><img src="./img/ASCII_Art.png" alt="ASCII_Art.png" />
-</p>
-</div>
 </div>
 </div>
 </div>
