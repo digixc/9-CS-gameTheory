@@ -5,7 +5,7 @@
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
 
-#+TITLE: The Monty Hall Problem and Ultimatum
+#+TITLE: The Monty Hall Problem
 #+AUTHOR: James Brown
 
 #+BEGIN_EXPORT html
@@ -105,6 +105,17 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
+* Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END:
+** Developing the *Programming and Development* and *Algorithm* learning strands, specifically:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
++ Understand the difference between, and appropriately use *if* statements when checking doors in your simulation.
++ Use variables and relational operators within a *loop* to govern the end of your Monty Hall Problem game. 
++ Designs solutions (algorithms) that use repetition and two-way selection i.e. *if, then and else*. 
 * Introduction: The Monty Hall problem
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -115,98 +126,89 @@
 :END:
 - Watch the video.
 #+BEGIN_EXPORT html 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mhlc7peGlGg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_X5erR9LKUs" frameborder="0" allowfullscreen></iframe>
 #+END_EXPORT
-- Open a text editor and answer the following questions:
+- Talk with the person next to you about the following questions:
 - What is the problem?
 - Should you swap, stick with your choice or does it make no difference?
 - What is the correct choice? Can you explain why?
-** Learn It: Ultimatum
+** Learn It: The Monty Hall Problem
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Ultimatum is a single round game. 
-- One player offers a share of a specified amount of money and the second player can choose to accept or reject this offer. 
-- If the second player accepts both get the agreed share however if they choose to reject they both get nothing.
-- Let try to solve the ultimatum game, in which one side makes a take-it-or-leave-it (also called /fait accompli/ or ultimatum) offer.
-** Code It
+- The Monty Hall Problem is probability puzzle based on an American TV game show "Let's Make a Deal" and is named after its host, Monty Hall. 
+- The problem was originally posed (and solved) in a letter by Steve Selvin to the American Statistician in 1975.
+- The problem was as follows:
+
+#+BEGIN_SRC
+Suppose you're on a game show, and you're given the choice of three doors:
+Behind one door is a car; behind the others, goats. You pick a door, say No. 1,
+and the host, who knows what's behind the doors, opens another door, say No. 3, 
+which has a goat. He then says to you, "Do you want to pick door No. 2?" 
+Is it to your advantage to switch your choice?
+#+END_SRC
+
+- Do you think you should switch your choice or stick with your 1st choice?
+- You and most people think they should stick. 
+- But as the video above video shows contestants who *switch have a 2/3 chance of winning the car*, while contestants who *stick to their initial choice have only a 1/3 chance.*
+- Paul Erdos, one of the most prolific mathematicians in history, remained unconvinced this was true until he was shown a computer simulation demonstrating the predicted result.
+[[./img/montyHallVisual.png]]
+- The image shows the three initial configurations of the game. In two of them, the player wins by switching away from the choice made before a door was opened.
+
+** Code It - List Popping
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- Using Python lets make our own Ultimatum game.
-- Firstly lets think about the pseudocode
-[[./img/1_sshot.JPG]]
-- The code for the Ultimatum game is shown in the Trinket below:
+- Using Python we're going to make our own Monty Hall Problem game.
+- First of all we need to learn a new command when using lists, *.pop()*.
+- Pop is used with lists to "pop off" or delete the last item in a list.
+
+- Example code for popping a list can be seen in the Trinket below:
 #+BEGIN_EXPORT html 
-<iframe src="https://trinket.io/embed/python/c1986a151a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/bd21bd8517" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 #+END_EXPORT
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Using the code get other people in the room to play. Aim for 10 rounds of the game.
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-- What pattern can you see?
-- If they were using 'backward induction' what offers should they accept?
-- Why do other people sometimes reject offers?
-** Learn It: Dictator Game
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- In the dictator game, one student decides how to split a pot of money between herself and the other student. 
-- Once the decision has been made, the two students receive the specified split and the game is over.
-- This game teaches us about the existence of [[https://en.wikipedia.org/wiki/Altruism][altruists]] in the population, and when coupled with the ultimatum game can show students how to differentiate social norms from strategic responses.
-** Code It
+- Experiment with the code above to change the list and add new items to it.
+- Try using *.pop(3)* this will delete the 3rd element of the list.
+
+** Code It - The Monty Hall Problem Simulation
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- Adapt your first program to just accept the first proposal with no chance of rejection. Use the comment out instruction rather than deleting code - we will need it later.
-- Here is the pseudocode to help you:
-[[./img/4_sshot.JPG]]
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Using your code get other people in the room to play. Aim for 10 rounds of the game.
-- If everyone moves to the left.
-- Ask 10 students to play your game.
-- What is your average score? Highest? Lowest?
-- What has happened to the scores compared to the Ultimatum game?
-** Try It: Multiple rounds
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- The Bargaining (Nash) game is a simple 2 player game used to model other bargaining interactions. This time the second player is going to be able to make counteroffers. There are 3 rounds and if there is no agreement at the end then no one gets any money.
-** Code It
-- Lets expand our original game program to include the three rounds.
-- Here is some pseudocode to help your challenge.
-[[./img/5_sshot.JPG]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
+- Now it's time to do our own *simulation* of the Monty Hall Problem, to prove that you should always switch your choice.
+- Your going to complete some code so that you can simulate *10000 games* of the problem at a time.
+- You'll then see the probability of the two choices of switching and staying.
+- Use the below Trinket and tasks to help you complete the badges for this week.
+#+BEGIN_EXPORT html 
+<iframe src="https://trinket.io/embed/python/1ef41578f9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_EXPORT
 ** Badge It: Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
-- Complete the code for the Prisoner's dilemma game (week 3) in Scratch. Upload a screenshot of the code.
-- *OR...*
-- Modify the Trinket code to work as the Dictator game, and upload a screenshot of it running.
+- Using the Trinket above as a *starting point* and using the *comments to guide you*, make a simulation of the Monty Hall Problem in python.
+- It should end up around 2/3 winning with switching and 1/3 with staying.
+- Screenshot your complete code for the Silver badge.
 ** Badge It: Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- In the Prisoner's Dilemma, modify the cat's strategy to be an 'angel'. It always stays silent, and never betrays the human player. Screenshot the code block that sets this strategy and upload it. Develop a second, 'Unpredictable puss' strategy for the cat, so that it betrays or stays silent at random. Screenshot this, and upload it too.
-- *OR...*
-- Modify the code to create the bargaining game. Upload a screenshot of it running to collect the badge.
+- For Gold you are going to create a version of the game where you play a round of the game like a player would in real life.
+- Modify the Trinket code below so that your Monty Hall Problem game works correctly and fulfills the following requirements:
+  - You have a *randomly shuffled list* of your three doors.
+  - You can choose which door to stick with first.
+  - A non car door is opened automatically.
+  - You can then choose to stick or change your door.
+  - You chosen door is opened and you get told what you have won!
+
+#+BEGIN_EXPORT html 
+<iframe src="https://trinket.io/embed/python/216bd8ecc2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_EXPORT
+
 ** Badge It: Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
-- For the Prisoner's dilemma program, modify the cat's strategy so that it holds a grudge…
-- It will remain silent every time the game is played, until the human player betrays, then…
-- It will then always betray the human player until the game is reset.
-- *OR...*
-- Modify the bargaining game to show some statistics at the end of the game (/e.g. how many rounds, highest offer, lowest offer, etc/).
+- Using the code you created for the Gold badge use *print* commands to show a visual version of your doors at each stage of the game.
+- Use google to research ASCII art to see how you can use characters to make simple graphics.
+- An example output is shown below:
+[[./img/ASCII_Art.png]]
