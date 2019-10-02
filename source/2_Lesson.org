@@ -179,7 +179,9 @@
 :HTML_CONTAINER_CLASS: gold
 :END:
 *Learning Strand: Programming and Development*
-- Finish the Scratch code so that the game works as intended.
+- Finish the Scratch code so that the game works as intended, that is:
+  1. add an =if statement= so that the choices of Cat stays silent and you betray will also be checked and the appropriate points awarded or deducted.
+  2. add an =if statement= so that the choices of Cat betrays and you stays silent will also be checked and the appropriate points awarded or deducted.
 - Upload a screenshot of the complete and working code for your Gold badge.
 ** Badge It - Platinum
 :PROPERTIES:
