@@ -163,7 +163,7 @@
 - create a payoff matrix for the following scenario:
   - Two cars are meeting at an intersection and want to proceed as indicated by the arrows in Figure shown below.
     [[./img/TwoCars-Crossing.png]]
- - Each player can proceed or move. If both proceed, there is an accident. A would have a payoff of 100 in this case, and B a payoff of 1000 (since B would be made responsible for the accident, since A has the right of way). If one yields and the other proceeds, the one yielding has a payoff of 5, and the other one of 5. If both yield, it takes a little longer until they can proceed, so both have a payoff of 10.
+ - Each player can proceed or move. If both proceed, there is an accident. A would have a payoff of -100 in this case, and B a payoff of -1000 (since B would be made responsible for the accident, since A has the right of way). If one yields and the other proceeds, the one yielding has a payoff of -5, and the other one of -5. If both yield, it takes a little longer until they can proceed, so both have a payoff of -10.
  - Analyze this simultaneous game, draw the payoff bimatrix
 ** Badge It Gold - Prisoners' dilemma and Nash equilibrium
 :PROPERTIES:
