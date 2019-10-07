@@ -31,7 +31,7 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
 
-* [[file:pages/5_Lesson.html][Week 5 - Modelling Money]]
+* [[file:pages/5_Lesson.html][Week 5 - Game Theory ++]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      

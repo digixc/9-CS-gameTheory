@@ -185,20 +185,16 @@ Is it to your advantage to switch your choice?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
-- Using the Trinket above as a *starting point* and using the *comments to guide you*, make a simulation of the Monty Hall Problem in python.
-- It should end up around 2/3 winning with switching and 1/3 with staying.
-- Screenshot your complete code for the Silver badge.
++ Using the Trinket *above* as a starting point and using the *comments to guide you*, make a simulation of the Monty Hall Problem in python.
++ It should end up around 2/3 winning with switching and 1/3 with staying.
++ Screenshot your complete code for the Silver badge.
 ** Badge It: Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- For Gold you are going to create a version of the game where you play a round of the game like a player would in real life.
-- Modify the Trinket code below so that your Monty Hall Problem game works correctly and fulfills the following requirements:
-  - You have a *randomly shuffled list* of your three doors.
-  - You can choose which door to stick with first.
-  - A non car door is opened automatically.
-  - You can then choose to stick or change your door.
-  - You chosen door is opened and you get told what you have won!
+- For Gold you are going to comment on a version of the game where you play a round of the game like a player would in real life.
+- Modify the code below to add a comment to each line, using a #, indicating what is happenning on that line.
+- For example, for *door = [1,2,3]* you could add *# A list called door is created containing the integers 1,2 and 3.* 
 
 #+BEGIN_EXPORT html 
 <iframe src="https://trinket.io/embed/python/216bd8ecc2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -208,7 +204,7 @@ Is it to your advantage to switch your choice?
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
-- Using the code you created for the Gold badge use *print* commands to show a visual version of your doors at each stage of the game.
+- Using the code given to you in the Gold badge add *print* commands to show a visual version of your doors at each stage of the game.
 - Use google to research ASCII art to see how you can use characters to make simple graphics.
 - An example output is shown below:
 [[./img/ASCII_Art.png]]

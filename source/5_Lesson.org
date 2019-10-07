@@ -5,8 +5,8 @@
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
 
-#+TITLE: Modelling Money
-#+AUTHOR: Xiaohui Ellis
+#+TITLE: Game Theory ++
+#+AUTHOR: James Brown
 
 #+BEGIN_EXPORT html
  <div class="ribbon">
@@ -103,7 +103,18 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Introduction: Modelling Money
+* Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END:
+** Developing the *Information Technology* and *Algorithm* learning strands, specifically:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
++ You will use software to *create and edit* presentations with images and text to show how The Pirate Game works.
++ When researching a new game and it's theory you will *evaluate and repurpose content* for your own use.
++ Using either a pay off matrix or tree you will show *how a game works algorithmically.*
+* Introduction: Game Theory ++
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -112,20 +123,20 @@
 :HTML_CONTAINER_CLASS: document
 :END:
 
-- In a group of 30 students what are the chances of two people sharing a birthday?
+- In a group of 30 students what do you think the chances of two people sharing a birthday are?
 
-- Open a text editor and write down your  answer with either a fraction or %.
+- Open a text editor and write down your answer as a percentage.
 
 
 - Watch the video...
 
 #+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a2ey9a70yY0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KtT_cgMzHx8" frameborder="0" allowfullscreen></iframe>
 #+END_EXPORT
 
 - Were you correct?
 - What was the correct answer? 
-- Can you explain it?
+- Can you explain it to the student next to you?
 ** Learn It: The Pirate Game
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -133,56 +144,52 @@
 *The scenario*
 
 - There are 5 rational pirates, A, B, C, D and E. 
-- They find 100 gold coins. 
+- They find 500 gold coins. 
 - They must decide how to distribute them.
 - The pirates have a strict order of seniority: A is superior to B, who is superior to C, who is superior to D, who is superior to E.
 - The pirate world's rules of distribution are thus: that the most senior pirate should propose a distribution of coins. The pirates, including the proposer, then vote on whether to accept this distribution. If the proposed allocation is approved by a majority it happens. If not, the proposer is thrown overboard from the pirate ship and dies, and the next most senior pirate makes a new proposal to begin the system again. Each pirate would prefer to throw another overboard, if all other results would otherwise be equal.  Each pirate is very greedy but values his life the most. 
 - What would be the strategy proposed by A?
 
-*Hints*
+*Check out this video for the solution*
 
-Work out the best results for pirate A using Backward induction and start with one pirate then two and keep going until you get a solution.
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-P8KtAqg6fk" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
 
 ** Badge It Silver
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
+:HTML_CONTAINER_CLASS: silver
 :END:      
-- Make a presentation to show Pirate A what s/he should do.
-** Learn It: Matrix
+- Make a short (3-5 slide) PowerPoint presentation to show Pirate A what s/he should do.
+** Revise It: Pay Off Matrix
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- A good way to represent Game Theory examples is to use a matrix. 
-- This is sometimes called the *normal form*.
-- Here is one we used for the Prisoner's dilemma:
+- A good way to represent Game Theory examples is to use a pay off matrix. 
+- This is also called the *normal form*.
+- Here is one we could use for the Prisoner's dilemma:
 
 [[./img/prisoners.JPG]]
 
-- Basically the players and their possible actions are on the outside of the table. The outcomes are added in the inside of the table.
+- The players and their possible actions are on the outside of the table. The outcomes are added in the inside of the table.
 
 ** Learn It: Trees
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
 - Another good way to represent Game Theory examples is to use a tree. 
-- This is sometimes called the *extensive form*.
--  Here is one we could have used for the Prisoner's dilemma:
+- This is also called the *extensive form*.
+- Here is one we could have used for the Prisoner's dilemma:
 
 [[./img/monty.PNG]]
 
-//image courtesy of retroworks.blogspot.co.uk//
-
-- Basically everytime there is a decision you make a branch. 
-
-** Research It
+- Everytime there is a decision you make a new branch. 
+ 
+** Badge It: Gold / Platinum
 :PROPERTIES:
-
-- What is Exclusive Or? 
-- How do we use it in Computer Science?
-
-:HTML_CONTAINER_CLASS: research
+:HTML_CONTAINER_CLASS: badge
 :END:
-- Here is a list of 10 'games':
+- Here is a list of some 'games' we haven't covered yet:
 
 - Stag Hunt
 - Battle of the Sexes
@@ -191,22 +198,16 @@ Work out the best results for pirate A using Backward induction and start with o
 - Chicken
 - Hawk/Dove game
 - Diner's dilemma
-- Rock, Paper, Scissors
 - Dollar Auction
 - Traveller's dilemma
 
-*Pick one of them to research for the badge task.* 
-** Badge It: Gold / Platinum
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-*You need to explain the game theory principles:*
+*You need to explain in a Word or Powerpoint file the game theory principles of one of the above games, such as:*
 
 - number of players
 - payoffs
 - actions / decisions that are available to the player
 - strategy to 'win'
 
-- you may want to show a graphical version of the outcomes as either a matrix or a tree.
+- You should show a graphical version of the outcomes as either a matrix or a tree.
 
 The quality of your written answer will determine whether you are awarded Gold or Platinum.
