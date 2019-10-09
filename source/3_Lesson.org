@@ -169,7 +169,9 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- Explain Nash equilibrium using payoff matrix and Prisoners' dilemma scenario 
+- Explain Nash equilibrium using payoff matrix from Prisoners' dilemma scenario.
+- Your explanation should include examining the four outcomes, A, B, C & C as shown below and why some outcomes are not Nash Equilibrium and one is.
+[[./img/payoffMatrix-prisoner2.png]] 
 ** Badge It Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
