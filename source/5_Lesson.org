@@ -131,7 +131,7 @@
 - Watch the video...
 
 #+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KtT_cgMzHx8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KtT_cgMzHx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT
 
 - Were you correct?
@@ -151,9 +151,9 @@
 - What would be the strategy proposed by A?
 
 *Check out this video for the solution*
-
 #+BEGIN_EXPORT html
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-P8KtAqg6fk" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-P8KtAqg6fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT
 
 ** Badge It Silver
